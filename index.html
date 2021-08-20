@@ -12,7 +12,15 @@
   * {
     margin: 0;
     padding: 0;
+    background-image: url("https://wallpaperaccess.com/full/269158.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
   }
+
+  .background-image {}
 
   .ani {
     height: 100vh;
@@ -26,6 +34,7 @@
 </style>
 
 <body>
+  <div class="background-image"></div>
   <div class="ani">
     <model-viewer src="https://modelviewer.dev/shared-assets/models/Astronaut.glb" ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz" auto-rotate camera-controls shadow-intensity="3" autoplay ar></model-viewer>
 
